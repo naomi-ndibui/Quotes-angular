@@ -1,0 +1,37 @@
+<p>{{quote.author}} </p>
+
+<p></p>
+
+    <div class="four wide column center aligned votes">
+      <div class="ui statistic">
+
+        <div class="value">
+          {{ votes }}
+        </div>
+        <div class="label">
+          Votes:
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="twelve wide column">
+
+      <ul class="ui big horizontal list voters">
+        <li class="item">
+          <a href (click)="likeVote()">
+          <i class="arrow up icon"></i>
+            upvote
+          </a>
+        </li>
+
+        <li class="item">
+          <a href (click)="dislikeVote()">
+          <i class="arrow down icon"></i>
+            downvote
+          </a>
+        </li>
+
+      </ul>
+    </div>
