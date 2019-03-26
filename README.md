@@ -1,16 +1,16 @@
 # Quotes
-## #By Naomi Waruguru
+### By Naomi Waruguru
 ## Description
 This is a simple Angular 5 application that allows you to create quotes which allows one to add, upvote, downvote or delete a quote.
 
 ## User Requirements
 The applications allows users to do the following:
 
-*Create a new quote.
-*Upvote or downvote a quote.
-*Delete a quote
-*See the number of upvotes and number of downvotes for each quote.
-*This project was generated with Angular CLI version 1.7.4.
+* Create a new quote.
+* Upvote or downvote a quote.
+* Delete a quote
+* See the number of upvotes and number of downvotes for each quote.
+* This project was generated with Angular CLI version 1.7.4.
 
 ## Development server
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
@@ -36,3 +36,12 @@ To get more help on the Angular CLI use ng help or go check out the Angular CLI 
 *'''Make sure you have all the Requirements or running angular apps installed such as node,npm, tsc and watchman'''
 *'''Clone the project into your machine from  '''
 *'''Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'''
+## Technology Used
+* Angular JS
+* HTML
+* CSS
+## Contributions
+Pull requests are encouraged
+
+## Contact Details
+You can contact me at naomi.ndibui@gmail.com
