@@ -1,0 +1,24 @@
+<h1>Quotes</h1>
+
+<p>Posts your quotes here!!!</p>
+<hr>
+
+<div class="container">
+
+    <div class="row">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+
+</div>
+
+<div class="container">
+<div class="row" *ngFor="let quote of quotes;let i = 'index'">
+<ul>
+        <li >{{quote.name}}</li>
+        <button (click)='toogleDetails(i)'>Show Author</button>
+
+        <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>
+</ul>
+</div>
+
+</div>
