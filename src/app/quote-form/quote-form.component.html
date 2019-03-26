@@ -5,7 +5,7 @@
 
                 <label for="name">Quote</label>
                 <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
-                Display: {{newQuote.name}}
+
 
 
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
@@ -35,6 +35,16 @@
                 </div>
 
             </div>
+
+              <div class="form-group">
+               <label for="complete">Completion</label>
+               <input type='date' id="complete" [(ngModel)]="newQuote.completeDate"name="completeDate" #completeDate="ngModel"required>
+               <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+                        <p>Complete Date is Required</p>
+
+               </div>
+               </div>
+
             <button type="submit" class="btn btn-success btn-lg">Submit Quote!</button>
         </form>
     </div>
