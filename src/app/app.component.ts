@@ -6,6 +6,7 @@ import { Quote } from './quote'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   quotes = [
     new Quote(1, 'Spread love everywhere you go. Let no one ever come to you without leaving happier.','Mother Teresa',"Naomi",new Date(2019,3,26)),
