@@ -1,1 +1,16 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+.grey {
+    background-color: #c7c7c7b8;
+    padding: 20px;
+    font-weight: 500;
+}
+.space-below{
+    padding-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+.cat-icon{
+    margin-left: -27px;
+    color: #28a745;
+}
