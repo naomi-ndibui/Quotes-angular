@@ -14,6 +14,7 @@ export class QuoteComponent implements OnInit {
     new Quote(3, 'Whoever is happy will make others happy too.','Anne Frank',"Naomi"),
 ];
 
+
 addNewQuote(quote){
   let quoteLength = this.quotes.length;
   quote.id=quoteLength+1;
@@ -24,6 +25,18 @@ addNewQuote(quote){
 toogleDetails(index){
   this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
 }
+
+deleteQuote(isComplete,index){
+  if (isComplete){
+      let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
+
+      if(toDelete){
+          this.quotes.splice(index,1)
+      }
+  }
+}
+
+
   constructor() { }
 
   ngOnInit() {
