@@ -13,12 +13,16 @@
 
 <div class="container">
 <div class="row" *ngFor="let quote of quotes;let i = 'index'">
+
 <ul>
         <li >{{quote.name}}</li>
-        <button (click)='toogleDetails(i)'>Show Author</button>
+        <button class="btn btn-primary" (click)='toogleDetails(i)'>Show Author</button>
 
-        <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>
+        
+
+        <app-quote-details *ngIf="quote.showAuthor" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+
 </ul>
 </div>
-
 </div>
+
