@@ -13,16 +13,15 @@
 
 <div class="container">
 <div class="row" *ngFor="let quote of quotes;let i = 'index'">
-
+ <li  id="{{i}}" appStrikethrough>{{quote.name}} due on {{quote.completeDate|date}}</li>
 <ul>
         <li >{{quote.name}}</li>
         <button class="btn btn-primary" (click)='toogleDetails(i)'>Show Author</button>
 
-        
+
 
         <app-quote-details *ngIf="quote.showAuthor" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
 
 </ul>
 </div>
 </div>
-
