@@ -1,1 +1,30 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+h1{
+  color:
+}
+body{
+  background-image:url("https://images.wallpaperscraft.com/image/book_pendant_watch_black_and_white_67427_1920x1080.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 130%;
+  color:Black;
+  font-family: Roboto;
+}
+h1{
+  background-color: white;
+  opacity:0.3;
+  color:black;
+  text-align: center;
+  font-family:Germania One;
+
+}
+form{
+  background-color: white;
+  opacity:0.7;
+  width:1100px;
+  text-align: center;
+}
+#quotes{
+  background-color: white;
+  opacity: 0.7;
+}
