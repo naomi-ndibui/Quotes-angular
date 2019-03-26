@@ -12,7 +12,7 @@ export class QuoteDetailsComponent implements OnInit {
   @Input () quote:Quote;
   @Output() isComplete= new EventEmitter<boolean>();
   vote = 0;
-  
+
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
@@ -27,11 +27,11 @@ export class QuoteDetailsComponent implements OnInit {
    }
 
    dislikeVote(): boolean{
-    this.votes -=1;
+    this.votes +=1;
     return false;
   }
 
- 
+
 
   ngOnInit() {
   }
