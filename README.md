@@ -33,9 +33,9 @@ To get more help on the Angular CLI use ng help or go check out the Angular CLI 
 
 # Installation
 ## Cloning
-*'''Make sure you have all the Requirements or running angular apps installed such as node,npm, tsc and watchman'''
-*'''Clone the project into your machine from  '''
-*'''Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'''
+* '''Make sure you have all the Requirements or running angular apps installed such as node,npm, tsc and watchman'''
+* '''Clone the project into your machine from  '''https://naomi-ndibui-quotes-angular.netlify.com/'''
+* '''Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'''
 ## Technology Used
 * Angular JS
 * HTML
@@ -45,3 +45,5 @@ Pull requests are encouraged
 
 ## Contact Details
 You can contact me at naomi.ndibui@gmail.com
+## License
+GNU GPLv3, Copyright (c) 2019
