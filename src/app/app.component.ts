@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quote'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes-angular';
+  quotes = [
+    new Quote(1, 'Spread love everywhere you go. Let no one ever come to you without leaving happier.','Mother Teresa',"Naomi"),
+    new Quote(2, 'When you reach the end of your rope, tie a knot in it and hang on.','Franklin D Roosevelt',"Naomi"),
+    new Quote(3, 'Whoever is happy will make others happy too.','Anne Frank',"Naomi"),
+];
+ constructor(){  }
 }
